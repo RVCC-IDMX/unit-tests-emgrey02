@@ -40,6 +40,8 @@ TODO: the string literal 'JavaScript is Awesome!'.
 
 // * Add your code BELOW here
 
+let myClass = 'JavaScript is Awesome!';
+
 // * Don't mess with the test code below here!
 
 test('myClass', () => {
@@ -60,6 +62,8 @@ TODO: Remember to use single-quotes for the empty string.
 */
 
 // * Add your code BELOW here
+
+let emptyString = '';
 
 // * Don't mess with the test code below here!
 
@@ -85,6 +89,8 @@ TODO: string with exactly 6 alphanumeric characters in it.
 
 // * Add your code BELOW here
 
+let petName = 'Lalala';
+
 // * Don't mess with the test code below here!
 
 test('petName', () => {
@@ -106,6 +112,8 @@ TODO: assign it any word that starts with a capital A.
 */
 
 // * Add your code BELOW here
+
+const firstLetterIsA = 'Aluminum';
 
 // * Don't mess with the test code below here!
 
@@ -133,6 +141,8 @@ TODO: and two is not a space but an escaped horizontal tab character.
 
 // * Add your code BELOW here
 
+let counting = 'one\ttwo';
+
 // * Don't mess with the test code below here!
 
 test('counting', () => {
@@ -156,6 +166,8 @@ TODO: assigned variable petName (from Skill 3).
 */
 
 // * Add your code BELOW here
+
+let mySentence = 'Hello, ' + petName;
 
 // * Don't mess with the test code below here!
 
@@ -182,6 +194,8 @@ TODO: for a JavaScript expression inside a template literal.
 */
 
 // * Add your code BELOW here
+
+let helloPet = `Hello, ${petName}`;
 
 // * Don't mess with the test code below here!
 
@@ -210,6 +224,9 @@ TODO: In line 2: Assign the first letter to 'K" using the code: myState[0] = 'K'
 */
 
 // * Add your code BELOW here
+
+let myState = 'California';
+myState[0] = 'K';
 
 // * Don't mess with the test code below here!
 
@@ -240,6 +257,9 @@ TODO: In line 2: Reassign thisMonth to the string literal 'September'.
 */
 
 // * Add your code BELOW here
+
+let thisMonth = 'I dunno!';
+thisMonth = 'September';
 
 // * Don't mess with the test code below here!
 

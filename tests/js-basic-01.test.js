@@ -30,7 +30,7 @@
 
 ? All of the variables and constants in this file are global variables.
 ? This is why we can access them anywhere after they are declared.
-? We'll use this behavior to resue some variables and constants multiple times
+? We'll use this behavior to reuse some variables and constants multiple times
 ? in this file when creating our skill tests.
 */
 
@@ -48,6 +48,8 @@ TODO: DO NOT assign it a value.
 */
 
 // * Add your code BELOW here
+
+let myName;
 
 // * Don't mess with the test code below here!
 
@@ -72,6 +74,8 @@ TODO: number literal value of integer 22.
 
 // * Add your code BELOW here
 
+let age = 22;
+
 // * Don't mess with the test code below here!
 
 test('age', () => {
@@ -93,6 +97,8 @@ TODO: the number literal value 7.
 */
 
 // * Add your code BELOW here
+
+const daysInWeek = 7;
 
 // * Don't mess with the test code below here!
 
@@ -123,10 +129,13 @@ TODO: In the second line, assign myWorkDays to the value of the constant daysInW
 TODO: DO NOT use the number literal 7.
 
 TODO: HINT: You can use the assignment operator (=) to assign a value
-TODO: of one varaible to a different variable.
+TODO: of one variable to a different variable.
 */
 
 // * Add your code BELOW here
+
+let myWorkDays;
+myWorkDays = daysInWeek;
 
 // * Don't mess with the test code below here!
 
@@ -159,6 +168,10 @@ TODO: (using the * operator for multiplication).
 
 // * Add your code BELOW here
 
+let oops;
+let sillyMath;
+sillyMath = oops * 2;
+
 // * Don't mess with the test code below here!
 
 test('sillyMath', () => {
@@ -185,6 +198,9 @@ TODO: In the second line, assign sillyString to 'Hello, ' and concatenate oops t
 */
 
 // * Add your code BELOW here
+
+let sillyString;
+sillyString = 'Hello, ' + oops;
 
 // * Don't mess with the test code below here!
 
